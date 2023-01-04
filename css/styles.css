@@ -2,4 +2,36 @@
 
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color:var(--color-light-gray);
+}
+
+
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
+:root{
+    --color-purple: #4D41C0;
+    --color-white: #FFF;
+    --color-light-gray:#E8E8E8;
+}
+
+header{
+    background-color: var(--color-purple);
+    color: var(--color-white);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
