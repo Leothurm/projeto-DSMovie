@@ -71,8 +71,8 @@ nav a{
 }
 
 .movie-card{
-    width: 360px;
-
+    width: 100%;
+    /* Colocar esse width de 100% faz os cards respeitarem e não encavalarem para os outros card */
 }
 
 .movie-card img{
@@ -85,14 +85,17 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     border-radius:0 0 8px 8px ;
+    justify-content: space-between;
+    min-height: 150px;
 }
 
 .movie-card-description h3{
     margin-bottom: 25px;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
 }
 
 .btn-evaluate, .btn-evaluate:hover{
