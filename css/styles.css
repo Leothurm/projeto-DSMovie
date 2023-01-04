@@ -23,10 +23,12 @@ h1,h2,h3,h4,h5{
 }
 
 :root{
-    --color-primary: #4D41C0;
+    --color-primary: #a3a254;
     --white: #FFF;
     --bg-gray:#E8E8E8;
 }
+
+/* ESTILIZAÇÃO DA BARRA SUPERIOR */
 
 header{
     background-color: var(--color-primary);
@@ -59,4 +61,50 @@ nav a{
 
 .dsmovie-contact-container img{
     margin-right: 10px;
+
+}
+
+/* ESTILIZAÇÃO DO MAIN */
+
+#dsmovie-card-list{
+    padding: 40px 0;
+}
+
+.movie-card{
+    width: 360px;
+
+}
+
+.movie-card img{
+    width: 100%;  
+    border-radius: 8px 8px 0 0;
+}
+
+.movie-card-description{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 20px 0;
+    border-radius:0 0 8px 8px ;
+}
+
+.movie-card-description h3{
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn-evaluate, .btn-evaluate:hover{
+    height: 40px;
+    width: 180px;
+    background-color:var(--color-primary) ;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
 }
