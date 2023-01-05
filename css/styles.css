@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5{
     --white: #FFF;
     --bg-gray:#E8E8E8;
     --text-light-gray:#AAAAAA;
+    --star-yellow:#FFBB3A;
 }
 
 /* ESTILIZAÇÃO DA BARRA SUPERIOR */
@@ -37,6 +38,7 @@ header{
     height: 60px;
     display: flex;
     align-items: center;
+
 }
 
 nav{
@@ -88,8 +90,8 @@ nav a{
     align-items: center;
     padding: 10px 20px 20px 20px;
     border-radius:0 0 8px 8px ;
-    justify-content: space-between;
-    min-height: 150px;
+    justify-content: space-around;
+    min-height: 220px;
 }
 
 .movie-card-description h3{
@@ -97,6 +99,7 @@ nav a{
     font-size: 14px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .btn-evaluate, .btn-evaluate:hover{
@@ -111,6 +114,33 @@ nav a{
     justify-content: center;
     border-radius: 8px;
     border: none;
+}
+
+.avaliation-description{
+    display: flex;
+    flex-direction:column ; 
+    align-items: center;
+}
+
+.avaliation-description h4{
+    font-size:16px ;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.avaliation-description p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+.avaliation-description img{
+    width: 22px;
+}
+
+.star-container{
+    display: flex;
 }
 
 /* ESTILIZAÇÃO DO FORMULARIO */
