@@ -111,3 +111,14 @@ nav a{
     border-radius: 8px;
 
 }
+
+/* ESTILIZAÇÃO DO FORMULARIO */
+
+#dsmovie-form-section{
+    
+}
+
+.dsmovie-form-container{
+    padding: 40px 0;
+    max-width: 480px;
+}
