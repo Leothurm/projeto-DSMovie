@@ -188,3 +188,11 @@ margin-bottom: 20px;
     height: 100px;
     justify-content: space-between;
 }
+
+.form-control-picker{
+    background-image: url('../img/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position-x: calc(100% - 5px);
+    background-position-y: center;
+}
