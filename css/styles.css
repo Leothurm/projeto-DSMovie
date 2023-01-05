@@ -26,6 +26,7 @@ h1,h2,h3,h4,h5{
     --color-primary: #a3a254;
     --white: #FFF;
     --bg-gray:#E8E8E8;
+    --text-light-gray:#AAAAAA;
 }
 
 /* ESTILIZAÇÃO DA BARRA SUPERIOR */
@@ -109,7 +110,7 @@ nav a{
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-
+    border: none;
 }
 
 /* ESTILIZAÇÃO DO FORMULARIO */
@@ -121,4 +122,39 @@ nav a{
 .dsmovie-form-container{
     padding: 40px 0;
     max-width: 480px;
+}
+
+.movie-form-description{
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.movie-form-description h3{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsmovie-form-group{
+margin-bottom: 20px;
+}
+
+.dsmovie-form-group label{
+    font-size: 12px;
+    color: var(--text-light-gray);
+}
+
+.dsmovie-form{
+    width: 100%;
+}
+.dsmovie-form-btn-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
 }
