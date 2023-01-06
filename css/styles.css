@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5{
 /* ESTILIZAÇÃO DA BARRA SUPERIOR */
 
 header{
-    background-color: var(--color-primary);
+    background-image: linear-gradient(to right,#525003,#d6d470,#525003);
     color: var(--white);
     height: 60px;
     display: flex;
@@ -159,7 +159,7 @@ nav a{
 .btn-evaluate, .btn-evaluate:hover{
     height: 40px;
     width: 180px;
-    background-color:var(--color-primary) ;
+    background-image: linear-gradient(to right,#525003,#b4b45b,#525003);
     color: var(--white);
     font-size: 14px;
     font-weight: 700;
