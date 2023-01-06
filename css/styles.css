@@ -69,8 +69,62 @@ nav a{
 
 /* ESTILIZAÇÃO DO MAIN */
 
+.pagination-container{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.pagination-box{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.pagination-box p{
+    margin-bottom: 0;
+    font-size: 12px;
+    color:var(--color-primary) ;
+    font-weight: 400;
+}
+
+.pagination-box button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+
+}
+
+.pagination-box button img{
+
+    filter: brightness(0) saturate(100%) invert(62%) sepia(5%) saturate(2993%) hue-rotate(21deg) brightness(99%) contrast(92%);
+}
+
+
+
+
+.pagination-box button:disabled{
+    border: 1px solid  var(--text-light-gray);
+}
+
+.pagination-box button:disabled img{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(4%) saturate(6%) hue-rotate(32deg) brightness(80%) contrast(89%);
+
+}
+
+.flip-horizontal{
+    transform: rotate(180deg);
+}
+
 #dsmovie-card-list{
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 .movie-card{
